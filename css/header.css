@@ -1,0 +1,47 @@
+.header{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.head-name{
+    margin-top: 1rem;
+    margin-right: 35rem;
+} 
+
+
+@media screen and (max-width:768px){
+    .header{
+        width: auto;
+
+    }
+
+    .menu li:not(:last-child) {
+         display: none;
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    .header{
+        width: auto;
+
+    }
+
+    .header-container{
+        display: flex;
+        max-width: 360px;
+    }
+
+    .menu li:not(:last-child) {
+         display: none;
+    }
+    
+}

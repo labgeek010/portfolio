@@ -1,0 +1,93 @@
+.contact-container{
+    display: flex;
+    gap: 32px;
+    align-content: space-between;
+    width: auto;
+    height: 650px;
+}
+
+.contact-thumbnail{
+    display: flex;
+    height: 593px;
+    width: auto;
+}
+
+.card{
+    max-height: 593px;
+
+
+}
+
+.form__label{
+    width: auto;
+    font-size: 0.7rem;
+
+}
+
+.input{
+    width: 75%;
+    height: 50px;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.input-container{
+    margin: 32px;
+    width: auto;
+}
+
+
+
+.input-message{
+    width: auto;
+    height: 133px;
+
+}
+
+.contact-button{
+    background-color: rgb(81, 183, 220);
+    color: white;
+    margin-top: 15px;
+    width: 144px;
+    height: 51px;
+}
+
+@media screen and (max-width:1024px){
+
+    .contact-container{
+        display: flex;
+        gap: 32px;
+        padding: 5px;
+        align-content: space-between;
+        width: 768px;
+        height: 637px;
+    }
+
+
+    .contact-thumbnail{
+        display: none;
+
+    }
+ 
+    
+}
+
+@media screen and (max-width:360px){
+
+    .contact-container{
+        display: flex;
+        gap: 32px;
+        padding: 5px;
+        align-content: space-between;
+        width: auto;
+        height: 637px;
+    }
+
+
+    .contact-thumbnail{
+        display: none;
+
+    }
+ 
+    
+}
