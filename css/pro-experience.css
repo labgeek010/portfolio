@@ -5,14 +5,13 @@
     padding: 2px;
     width: auto;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 15px;
 }
 
 .pro-experience-title{
-    height: 75px;
-    margin: 3rem;
+    padding: 20px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 
@@ -94,9 +93,6 @@
     
     .pro-experience-title{
         text-align: center;
-        margin-top: 5rem;
-        font-size: 3rem;
-        align-content: center;
     }
 
 }
@@ -113,12 +109,7 @@
     }
 
     .pro-experience-title{
-        width: 100%;
-        height: 50px;
         text-align: center;
-        margin-top: 7rem;
-        font-size: 3rem;
-        align-content: center;
     }
 
     .button-division{

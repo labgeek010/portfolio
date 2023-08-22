@@ -3,13 +3,12 @@
     gap: 32px;
     align-content: space-between;
     width: auto;
-    height: 650px;
 }
 
 .contact-thumbnail{
     display: flex;
-    height: 593px;
-    width: auto;
+    max-width: 400px;
+    width: 100%;
 }
 
 .card{
@@ -59,13 +58,11 @@
         gap: 32px;
         padding: 5px;
         align-content: space-between;
-        width: 768px;
-        height: 637px;
+     
     }
 
 
     .contact-thumbnail{
-        display: none;
 
     }
  

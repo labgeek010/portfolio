@@ -23,9 +23,7 @@
     background-color: transparent;
     color: grey;
     display: flex;
-    width: 467px;
-    height: 35px;
-    margin-right: 13rem;
+    flex-wrap: wrap;
 }
 
 .aboutMe {
@@ -90,17 +88,12 @@
         font-size: 1rem;
         color: grey;
         display: flex;
-        width: 318px;
-        height: 16px;
-        margin: 2rem;
         align-items: center;
         align-content: center;
         gap: 8px;
     }
 
     .links{
-        width: 318px;
-        height: 16px;
 
     }
 
