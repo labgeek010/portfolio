@@ -346,6 +346,13 @@ main {
     animation: aniThree 13s infinite linear alternate;
 }
 
+.anim-elements .anim-element:nth-child(6) {
+    top: 25%;
+    right: 11%;
+    color: #bc641c;
+    animation: aniThree 13s infinite linear alternate;
+}
+
 @keyframes aniOne {
     0% {transform: translate(0, 0) rotate(0);}
     40% {transform: translate(141px, 72px) rotate(75deg);}
